@@ -13,7 +13,7 @@ C0D1NG is an organisation that helps everyone to contribute on open source proje
 # 👉 Fork this repository
 # 👉 Clone the repository
 # 👉 Create a branch
-# 👉 Create a directory of your github ```username```
+# 👉 Add your portfolio website in ```Contributors.md```
 # 👉 Add & commit
 # 👉 Push changes to GitHub
 # 👉 Compare & Submit a Pull Request
