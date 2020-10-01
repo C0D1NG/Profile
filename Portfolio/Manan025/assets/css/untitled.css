@@ -1,0 +1,16 @@
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+}
+
+.coninfo {
+  width: 40%;
+  /*margin-bottom: 20px;*/
+  /*left: 50%;*/
+  /*position: absolute;*/
+  /*right: 50%;*/
+  /*text-align: center;*/
+  /*display: inline-block;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  margin: 20px auto;
+}
+
