@@ -13,5 +13,6 @@ Add your portfolio website in the table format.
 | Amaan Ahmad | https://www.amaan.codes |
 | Devanshu Ruhela| https://devanshu-ruhela.web.app/ |
 | Manan | https://mananwebcs.web.app |
+| Nikhil Ghate | https://github.com/nikhil-ghate |
 
 ***
