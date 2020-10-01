@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    	
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Slackey|Buenard" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+<div class="page_container">
+  <div class="jumpto-block">
+    <div class="banner" id="banner">
+
+        <div class="header">
+                <div><a href="#">My Portfolio</a></div> 
+                    <div class="hamb" id="hamb" onclick="toggle()"></div>
+        </div>
+
+        <div class="content" id="content">
+        <div class="left">
+                            <div id="text" >
+                            <div class="scroll"  data-aos="fade-left"><h2>Hello,<br>I'm <span>Shashwat Mishra</span></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem natus quaerat consectetur corrupti quos molestias porro, laborum eum eligendi.</p>
+                                </div>
+                                <a href="#" class="know">Know More</a>
+                            </div>
+
+                            <div class="three">
+                            <ul class="social" data-aos="fade-up">
+                                <li><a href="#"><img src="1.png" alt=""></a></li>
+                                <li><a href="#"><img src="2.png" alt=""></a></li>
+                                <li><a href="#"><img src="3.png" alt=""></a></li>
+                            
+                            </ul>
+                        </div>
+            </div>
+
+            <div class="right">
+                <div class="image">
+                    <img src="yo.jpg" alt="">
+                </div>  
+        </div> 
+        </div>
+    </div>
+    </div>
+
+
+
+  <div class="jumpto-block">
+
+    <div class="bonza">
+        <h1>Skills:</h1>
+        <br>
+        <div class="baye">
+       <div class="one" >
+           <div><p>HTML</p></div>
+           <div class="percent" ><div class="prog" style="width: 90%;"></div></div>
+       </div>
+
+       <div class="one" >
+        <div><p>CSS</p></div>
+        <div class="percent" ><div class="prog" style="width: 70%;"></div></div>
+    </div>
+
+    <div class="one" >
+        <div><p>javascript</p></div>
+        <div class="percent" ><div class="prog" style="width: 30%;"></div></div>
+    </div>
+
+    <div class="one" >
+        <div><p>Node.js</p></div>
+        <div class="percent" ><div class="prog" style="width: 60%;"></div></div>
+    </div>
+
+    <div class="one" >
+        <div><p>MongoDB</p></div>
+        <div class="percent" ><div class="prog" style="width: 50%;"></div></div>
+    </div>
+</div>
+<div class="daye">
+    <img src="svt.svg" alt="" style="margin-top: 50px;">
+</div>
+
+   
+
+    
+
+    </div>
+    	    </div>
+
+  <div class="jumpto-block">
+
+<div class="contact">
+    <div class="title" style="text-align: center;"><h1 >LETS TALK</h1></div>
+    <div class="wrapit">
+        <div class="baye">
+            <span>Name</span> <input type=" text" placeholder="Enter your Name"><br>
+            <span>WhatsApp</span> <input type=" text" placeholder="Enter your WhatsApp number">
+        </div>
+
+
+        <div class="daye">
+            <span>Message:</span> <textarea name="" id="" cols="70" rows="20"></textarea>
+            <button>Submit</button>
+        </div>
+
+    </div>
+</div>
+	    </div>
+
+
+
+<!-- about me
+hobbies
+certificates
+experience
+education
+language  -->
+
+
+<div class="nav">
+    <ul>
+        <li>Home</li>
+        <li>About me</li>
+        <li>My projects</li>
+        <li>Hire me</li>
+
+    </ul>
+</div>
+</div>
+</div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script type="text/javascript">
+    AOS.init({
+        duration: 2000,
+    });
+
+    
+
+   function toggle(){
+    const a=document.getElementById('hamb');
+    const b=document.getElementById('banner');
+    if(a.className==='hamb'){
+        a.className ="hamb1";
+        b.className="banner1";
+    }
+    else{
+        a.className="hamb";
+        b.className="banner";
+
+    }
+   };  
+
+  </script>
+</body>
+</html>
