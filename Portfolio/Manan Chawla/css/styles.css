@@ -1,0 +1,122 @@
+.nav-link{
+    font-size: 1rem;
+    margin: 3px;
+    color: white!important;
+}
+.navbar{
+    background-image: linear-gradient(to right, #4189F0, #435FFA);
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar-brand{
+    font-weight: 500 !important;
+}
+.navbar-brand span:hover{
+    color: white !important;
+}
+/* Banner Section */
+
+#banner{
+    background-image: linear-gradient(to right, #4189F0, #435FFA);
+    color: white;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.title-image{
+    padding: 2rem;
+}
+
+/* About Section */
+
+#about{
+    padding: 7% 15%;
+    text-align: center;
+}
+.about-image{
+    border-radius: 100%;
+    width: 20%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+  
+  }
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .icon{
+    color: #435FFA;
+    margin-bottom: 1rem;
+  }
+  .icon:hover{
+    color: #4732E3;
+  }
+
+/* Skills section */
+
+#skills{
+    padding: 7% 15%;
+    text-align: center;
+    background-image: linear-gradient(to right, #4189F0, #435FFA);
+    color: white;
+}
+
+.testimonials-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.skill-text{
+  font-size: 3.5rem;
+}
+h2{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 2.5rem;
+}
+
+/* Contact Section */
+
+#contact{
+    text-align: center;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  padding: 20px 20px;
+  font-size: 1.5rem;
+
+}
+#footer p{
+  padding-top: 20px;
+  font-size: large;
+  color: grey;
+}
+
+
+@media (max-width: 1028px) {
+    h2{
+      font-size: 20px;
+      line-height: 2.5rem;
+    }
+    .testimonials-image{
+      width: 25%;
+    }
+  }
