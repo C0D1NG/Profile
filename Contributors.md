@@ -17,4 +17,5 @@ Add your portfolio website in the table format.
 | Mukka Deepak | https://deepakmukka1.github.io/repo-responsive/ |
 | Arghya Biswas | https://arghya.surge.sh/ |
 | Doria Samuele | https://samudoria.github.io/ |
+| Sai Pothuri | https://sai-pothuri.github.io/ |
 | Ajay Kumar | https://ajaykrportfolio.now.sh |
