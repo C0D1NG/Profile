@@ -22,3 +22,4 @@ Add your portfolio website in the table format.
 | Arnab Deep | https://arnab16.tech |
 | Sai Pothuri | https://sai-pothuri.github.io/ |
 | Ajay Kumar | https://ajaykrportfolio.now.sh |
+| Rahul Sinha | https://portfoliooff.web.app/
