@@ -18,3 +18,4 @@ Add your portfolio website in the table format.
 | Arghya Biswas | https://arghya.surge.sh/ |
 | Doria Samuele | https://samudoria.github.io/ |
 | Ajay Kumar | https://ajaykrportfolio.now.sh |
+| Arnab Deep | https://arnab16.tech |
