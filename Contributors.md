@@ -19,3 +19,6 @@ Add your portfolio website in the table format.
 | Doria Samuele | https://samudoria.github.io/ |
 | Ajay Kumar | https://ajaykrportfolio.now.sh |
 | Manan Chawla | https://mananchawla2005.github.io/ |
+| Arnab Deep | https://arnab16.tech |
+| Sai Pothuri | https://sai-pothuri.github.io/ |
+| Ajay Kumar | https://ajaykrportfolio.now.sh |
