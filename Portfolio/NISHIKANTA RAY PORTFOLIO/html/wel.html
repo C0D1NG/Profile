@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            COMMING SOON
+        </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700');
+
+        body {
+        font-family: 'Raleway', sans-serif;
+        }
+
+        .wrapper {
+        position: absolute;
+        background-image: url(https://raw.githubusercontent.com/erenesto/vue-weather-app/master/src/assets/images/snow.jpg);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-color: #444;
+        background-blend-mode: overlay;
+        }
+
+        .coming-soon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        }
+
+        .coming-soon h1 {
+        display: inline-block;
+        font-size: 52px;
+        border: 5px solid #000;
+        padding: 8px 40px;
+        color: #ffd905;
+        animation: text-animation 3s ease-in-out forwards;
+        }
+
+        .coming-soon .ctdown {
+        font-weight: 700;
+        font-size: 42px;
+        display: flex;
+        justify-content: center;
+        min-height: 160px;
+        opacity: 0;
+        transition: opacity 3s ease-in-out;
+        }
+
+        .time-box {
+        display: flex;
+        flex-direction: column;
+        color: #ffd905;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0,0,0, 0.7);
+        width: 160px;
+        height: 160px;
+        }
+
+        .time-box:not(:last-child) {
+        margin-right: 20px;
+        }
+
+        .time-box span {
+        font-size: 18px;
+        font-weight: 200;
+        }
+
+        @keyframes text-animation {
+        from {
+            transform: scale(0) rotateY(0deg);
+        }
+        to {
+            transform: scale(1) rotateY(720deg);
+        }
+        }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Hack">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    </head>
+    <body>
+        <section class="wrapper">
+            <div class="coming-soon">
+              <h1>We Will Be Here Soon</h1>
+              <div id="countdown" class="ctdown"></div>
+            </div>
+          </section>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script>
+            const timeToBeReach = new Date("Aug 15, 2020 00:00:00").getTime();
+
+        const updateCountDown = setInterval(() => {
+
+        const now = new Date().getTime();
+
+        const timeDistance = timeToBeReach - now;
+
+        const days = Math.floor(timeDistance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeDistance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDistance % (1000 * 60)) / 1000);
+
+        const countDown = document.getElementById('countdown');
+
+        countDown.innerHTML = `
+            <div class="time-box">${days} <span>days</span></div>
+            <div class="time-box">${hours} <span>hours</span></div>
+            <div class="time-box">${minutes} <span>minutes</span></div>
+            <div class="time-box">${seconds} <span>seconds</span></div>
+        `;
+
+        countDown.style.opacity = 1;
+
+        //if time is up
+        if (timeDistance < 0) {
+            clearInterval(updateCountDown);
+            countDown.innerHTML = "It's time !";
+        }
+
+        }, 1000);
+
+        </script>
+    </body>
+</html>
