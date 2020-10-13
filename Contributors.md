@@ -24,3 +24,4 @@ Add your portfolio website in the table format.
 | Ajay Kumar | https://ajaykrportfolio.now.sh |
 | Rahul Sinha | https://portfoliooff.web.app/
 | Partha Talukdar | https://parth93qa.github.io/profile-parth-demo/ |
+| Mehrapi | https://mehrapi.github.io | 
