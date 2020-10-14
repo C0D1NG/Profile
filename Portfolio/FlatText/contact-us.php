@@ -123,8 +123,8 @@
 				<textarea name="message" required /></textarea>
 				</p>
 										
-
-				<div class="g-recaptcha" data-sitekey="6LcQdgsUAAAAADAfDKX5yA5PXfIeapIoKn39uk7x"></div>
+				<!--site key removed for privacy -->
+				<div class="g-recaptcha" data-sitekey="###"></div>
 			
 				<input type="submit" name="submit" value="submit" />
 
