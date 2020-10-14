@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>HTML5 based From validation</title>
+<meta name="keywords" content="form validation, html5" />
+<meta name="description" content="HTML5 based form validation" />
+<link rel='stylesheet' href='form.css' type='text/css' />
+</head>
+<body>
+<h1>User Registration Form</h1>
+<form action="send_email.php" method="post" class="contact-form" name='registration'>
+<ul>
+	
+	<li><label for="username">Name :</label></li>
+	<li><input type="text" name="username" size="30" required pattern="[a-zA-Z ]+"/></li>
+
+
+	<li><label for="email">Email :</label></li>
+	<li><input type="text" name="email" size="30" required pattern="^[a-zA-Z0-9-\_.]+@[a-zA-Z0-9-\_.]+\.[a-zA-Z0-9.]{2,5}$" /></li>
+	
+	<li><label for="message">Message :</label></li>
+	<li><textarea name="message" required pattern="^[a-zA-Z0-9-\_.]+@[a-zA-Z0-9-\_.]+\.[a-zA-Z0-9.]{2,5}$" /></textarea></li>
+	
+
+	<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>
