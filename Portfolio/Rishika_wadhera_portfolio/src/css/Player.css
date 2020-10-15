@@ -1,0 +1,15 @@
+.player{
+    background-color: black;
+    
+    
+}
+.player_body{
+    display: flex;
+    
+    background-color: black;
+    background-repeat: no-repeat;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
