@@ -1,0 +1,18 @@
+.mainele{
+    color: white;
+}
+.gt{
+    text-align: center;
+    color: rgb(71, 71, 248);
+    font-family: 'Chilanka', cursive;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
