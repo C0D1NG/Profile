@@ -1,0 +1,36 @@
+.skill{
+    
+    float: right;
+    width:80%;
+    text-align: center;
+    background-color: black;
+ 
+ }
+ .outer{
+     background-color: black;
+ }
+ .skills{
+    display: flex;
+     
+     justify-content: space-around;
+ }
+ .iconsskills{
+     width: 50px;
+     height: 50px;
+ }
+ .proj{
+    font-family: 'Chilanka', cursive;
+
+ }
+ .proj:hover{
+     color:gray
+ }
+ .heading{
+     color: white;
+     text-align: center;
+     
+     font-family: 'Chilanka', cursive;
+ }
+ .heading:hover{
+     color: gray;
+ }

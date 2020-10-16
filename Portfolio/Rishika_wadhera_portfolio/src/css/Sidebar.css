@@ -1,0 +1,15 @@
+.sidebar{
+    display: flex;
+    
+  
+    flex:0.15;
+    background-color: black;
+    color: white;
+   
+    
+    
+    
+}
+.options{
+    justify-content:space-between
+}

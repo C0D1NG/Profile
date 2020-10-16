@@ -1,0 +1,36 @@
+.about{
+    background: black;
+    color: white;
+    padding: 40px;
+}
+.abt{
+    text-align: center;
+    color: orange;
+}
+.proj{
+    text-align: center;
+    color: white;
+}
+.abtbody{
+   
+   color: white;
+    font-size: larger;
+    
+    font-family: 'Piazzolla', serif;
+
+    
+}
+
+.heading{
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+}
+.heading:hover{
+   color: grey;
+}
+.proj{
+    font-family: 'Chilanka', cursive;
+}
+.proj:hover{
+    color: gray;
+}
