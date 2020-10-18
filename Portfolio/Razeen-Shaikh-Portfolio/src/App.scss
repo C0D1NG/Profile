@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inconsolata:wght@500&display=swap&family=Dancing+Script:wght@600&family=Lato&display=swap&family=Roboto&display=swap');
+
+$main-color: #b19f9e;
+$main-nav-color: #0a99c3;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  color: #b19f9e;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 20px;
+  height: 30px !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #5e9db9, #2e31e5);
+  border-radius: 30px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(120deg, #07232c, #044c62, #0084ab);
+}
+
+a {
+  text-shadow: 1px 1px rgb(46, 100, 51);
+}
+
+.row {
+  margin: 0;
+}
+
+.navbar::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+.navbar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.col-md-7, .col-lg-8, .col-lg-4, .col-md-5 {
+  width: 100vw !important;
+  position: static;
+}

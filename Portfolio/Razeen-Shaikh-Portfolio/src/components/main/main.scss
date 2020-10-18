@@ -1,0 +1,65 @@
+/* Welcome Section */
+.main {
+    min-height: 100vh;
+    font-family: 'Inconsolata', monospace;
+    background-color: #26294e;
+  
+    h1 {
+      font-size: 60px;
+      text-shadow: 1px 1px #fff;
+    }
+  
+    .quote-box {
+      font-family: cursive;
+      height: 10rem;
+      padding-top: 6rem;
+    }
+}
+
+@media (max-width: 992px) {
+  // Main Section
+  .main {
+    padding: 15px;
+    margin: auto 0;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .quote-box {
+      width: 25rem;
+
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Main Section */
+  .main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 10rem;
+
+    h1 {
+      font-size: 2.5rem;
+      text-align: right;
+    }
+
+    p {
+      text-align: right;
+    }
+
+    .quote-box {
+      margin: 0 !important;
+      padding: 0 !important;
+      margin-top: 8rem !important;
+      width: 20rem;
+    }
+  }
+}

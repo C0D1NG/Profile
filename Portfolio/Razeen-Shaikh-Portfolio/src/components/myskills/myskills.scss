@@ -1,0 +1,58 @@
+// My Skills
+.my-skills {
+  background-color: #83d7e2;
+  min-height: 100vh;
+  padding-top: 30px;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+
+  .col-9 {
+    padding: 0 !important;
+  }
+}
+
+.skills {
+  margin-top: 10px;
+
+  li {
+    margin: 50px 0;
+  }
+
+  .skill {
+    li {
+      font-size: 0.8rem;
+      margin: 0;
+      padding-right: 10px;
+    }
+  }
+  .icon {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  // My Skills
+  .my-skills {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px 0 !important;
+
+    .skills {
+      h4 {
+        font-size: 1.4rem;
+      }
+    }
+
+    .skill {
+      li {
+        font-size: 1rem;
+      }
+    } 
+
+    .fa-4x {
+      font-size: 4.0em;
+    }
+  }
+}
