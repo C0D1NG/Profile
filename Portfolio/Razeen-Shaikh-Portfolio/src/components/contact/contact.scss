@@ -1,0 +1,151 @@
+/* Contact Section */
+.bg-gradient {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #d1d3eb;
+  
+    .contact {
+      form {
+        display: table;
+        margin: 20px 0;
+  
+        input,
+        textarea {
+          font-size: 18px;
+          font-family: 'Lato', sans-serif;
+          box-sizing: border-box;
+          display: block;
+          border: none;
+          padding: 10px;
+          width: 500px;
+          margin-bottom: 20px;
+          outline: none;
+          transition: all 0.2s ease-in-out;
+        }
+  
+        textarea {
+          height: 150px;
+        }
+  
+        button {
+          transition: all 0.2s ease-in-out;
+          font: 20px 'Playfair Display', sans-serif;
+          border: none;
+          background-image: linear-gradient(180deg, #ed1c24, #c1101d);
+          color: #fff;
+          font-weight: 500;
+          padding: 10px;
+          width: 100%;
+        }
+      }
+  
+      h3 {
+        margin: 10px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+      }
+  
+      .links {
+        font-size: 1.2rem;
+        margin-top: 50px;
+  
+        li {
+          margin: 0 30px;
+        }
+      }
+  
+      a {
+        margin: 20px;
+      }
+  
+    }
+}
+
+/* Copy Right */
+
+.copy-right {
+    text-shadow: none;
+    text-align: right;
+    padding: 0 20px;
+    margin: 0;
+    font-size: x-small;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+
+@media (max-width: 992px) {
+    // Contact 
+    .contact a {
+      margin: 0;
+      padding: 0;
+    }
+  
+    form {
+      align-self: center;
+  
+      input,
+      textarea {
+        padding: 0;
+        font-size: 1.6rem;
+        width: 23rem !important;
+        margin-bottom: 10px;
+      }
+    }
+}
+
+@media (max-width: 768px) {
+    // Contact Section
+    .bg-gradient {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+  
+        .contact {
+            margin: 0 !important;
+            padding: 0 !important;
+            padding: 20px !important;
+    
+            .links {
+                flex-direction: column;
+    
+                li {
+                    margin: 10px;
+                }
+            }
+    
+            form {
+                margin: 0 !important;
+                padding: 0 !important;
+                align-self: center;
+        
+                input,
+                textarea {
+                    margin-bottom: 10px;
+                }
+        
+                button {
+                    font-size: 1rem;
+                    padding: 5px 0;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    // Contact Section
+      .contact {
+          input,
+          textarea {
+            font-size: 1.5rem;
+            width: 17rem !important;
+            margin-bottom: 10px;
+          }
+  
+          button {
+            font-size: 1rem;
+          }
+      }
+}
