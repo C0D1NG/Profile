@@ -29,3 +29,4 @@ Add your portfolio website in the table format.
 | Rishika Wadhera | https://rishikawadhera.netlify.app |
 | Razeen Shaikh | https://razeen-shaikh.netlify.app |
 | Aishik Saha | https://aishik.org |
+| Adam Weiler | https://adam-weiler.com/ |
