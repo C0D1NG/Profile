@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
+}
+ 
+
+.header {
+	top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+
+
+.title {
+	color: #e31b6d;
+	font-weight: 800;
+	font-size: 6vw;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+
+.title > span {
+	color: #33a7ff;
+}
+
+.sub-title {
+	font-weight: 400;
+	color: #fff;
+	font-size: 4vw;
+	letter-spacing: 2px;
+	opacity: 0.8;
+}
+
+.btn-outline-primary {
+	border: 3px solid #e31b6d;
+	border-radius: 0px;
+	color: #e31b6d;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.btn-outline-primary:hover {
+	background-color: #e31b6d;
+	color: #fff;
+	border-color: #e31b6d;
+	outline: none;
+}
+
+.btn-outline-primary:focus{
+	box-shadow: none;
+}
+
+.basic-info {
+	background-color: #e31b6d;
+	opacity: 0.7;
+	padding: 5px 5px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.basic-info-sec {
+	padding: 20px;
+}
+
+.basic-info-sec > a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.basic-info .bx {
+	float: left;
+	padding-right: 10px;
+}
+
+.name-card {	
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+	.name-card {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+.name-card .container {
+	background-color: #fff;
+	margin-top: 200px;
+	border-radius: 10px;
+	box-shadow:  0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+@media only screen and (max-width: 600px) {
+	.name-card .container {
+		margin-top: 110px;
+	}
+}
+
+.myimg-sec {
+	margin-top: -80px;
+}
+
+.myimg {
+	width: 100%;
+	max-width: 150px;
+	height: auto;
+	border-radius: 100px;
+	box-shadow:  0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+.myname-sec {
+	margin-top: 20px;
+}
+
+.myname-sec h2 {
+	font-weight: 600; 
+	color: #333;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.myname-sec p {
+	font-size: 20px; 
+	padding-top: 15px; 
+	color: #e31b6d; 
+	font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+	.myname-sec h2 {
+		font-size: 1.5rem;	
+	}
+
+	.myname-sec p {
+		font-size: 15px;
+	}
+}
+
+.social-icons li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px;
+}
+
+.social-icons li a {
+	color: #777;	
+	transition: color 1s;
+}
+
+.social-icons li a:hover {
+	color: #e31b6d;
+}
+
+/* Preloader Css */
+/* ========================================================================================== */
+
+		.preloader-parent {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: fixed;
+			z-index: 100;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: #e31b6d;	
+		}
+
+		.preloader-child {
+			position: absolute;
+			margin: 0 auto;
+			left: 0;
+			right: 0;
+			top: 40%;
+			height: 40px;
+			width: 6px;
+			background-color: transparent;
+			animation: paddles 0.75s ease-out infinite;
+			transform: translate3d(0,0,0);			
+  		}
+
+		.preloader-child:before {
+			content: "";
+			position: absolute;
+			margin: 0 auto;
+			left: 0;
+			right: 0;
+			top: 15px;
+			width: 10px;
+			height: 10px;
+			background-color: #fff;
+			border-radius: 50%;
+			animation: ballbounce 0.6s ease-out infinite;
+		}
+
+@keyframes paddles {
+  0% {
+    box-shadow: -25px -10px 0px #fff, 25px 10px 0px #fff;
+  }
+  50% {
+    box-shadow: -25px 8px 0px #fff, 25px -10px 0px #fff;
+  }
+  100% {
+    box-shadow: -25px -10px 0px #fff, 25px 10px 0px #fff;
+  }
+}
+
+@keyframes ballbounce {
+  0%{
+    transform: translateX(-20px) scale(1,1.2);
+  }
+  25%{
+    transform: scale(1.2,1);
+  }
+  50% {
+    transform: translateX(15px) scale(1,1.2);
+  }
+  75% {
+    transform: scale(1.2,1);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+.preloader-text {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.preloader-text h5 {
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	opacity: 0.8;
+	bottom: 0;
+	right: 0;
+	left: 0;	
+	position: absolute;
+	display: block;
+	padding: 15px;
+}
