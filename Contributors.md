@@ -31,3 +31,4 @@ Add your portfolio website in the table format.
 | Aishik Saha | https://aishik.org |
 | Adam Weiler | https://adam-weiler.com/ |
 | Himanshu Kumawat | https://013himanshu.github.io/ |
+| Javier Heisecke | https://jheisecke.github.io/resume/ |
