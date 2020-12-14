@@ -32,3 +32,4 @@
 | Himanshu Kumawat | https://013himanshu.github.io |
 | Javier Heisecke | https://jheisecke.github.io/resume |
 | Przemek Dolata | https://przemekdolata96.github.io |
+| Minh Nguyen | https://minhd-nguyen.github.io/ |
