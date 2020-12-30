@@ -1,0 +1,173 @@
+@viewport {
+  width: 500px;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.ttf');
+}
+
+body {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+hr {
+  clear: both;
+  height: 60px;
+  border: none;
+  margin: 0 5px;
+}
+
+hr.vert {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+div.wrapper {
+  padding-top: 40px;
+}
+
+div.content {
+  cursor: default;
+  max-width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  color: #444;
+}
+
+div.introduction {
+  max-width: 475px;
+  margin: 0px auto;
+  font-size: 60px;
+}
+
+div.name {
+  font-family: 'raleway', sans-serif;
+  font-weight: 400;
+  font-size: 167px;
+  color: blue;
+}
+
+div.details {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 48px;
+}
+
+div.talent {
+  vertical-align: bottom;
+}
+
+div#flyup {
+  position: relative;
+  font-family: 'Lucida Console', Monaco, monospace;
+}
+
+div.link-header {
+  margin-top: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+div.linkout {
+  max-width: 330px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+  text-align: center;
+}
+
+div.linkout div {
+  margin-top: 15px;
+}
+
+.profile-png {
+  padding: 15px;
+  width:150px;
+  height: 200px;
+}
+
+.logo-png {
+  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+}
+
+div.tech {
+  text-align: center;
+  clear: both;
+}
+
+div.tech-header {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+
+div.tech div {
+  text-align: center;
+  margin-top: 7px;
+}
+
+div.tech img {
+  margin-left: 5px;
+}
+
+/* Multi-purpose classes */
+
+span.capitalize {
+  text-transform: uppercase;
+}
+
+div.outline {
+  /* border: 1px solid #ccc;
+  border-radius: 10px; */
+  color: green;
+  border: none;
+  padding: 6px 10px;
+  vertical-align: baseline;
+}
+
+div.inline {
+  display: inline-block;
+}
+
+.float {
+  float: left;
+}
+
+.margin-left {
+  margin-left: 15px;
+}
+
+.relative {
+  position: relative;
+}
+
+div.fixed-width {
+  width: 256px;
+  margin: 0 auto;
+}
+
+div.superimpose span {
+  position: absolute;
+  width: 80px;
+  text-align: right;
+  top: 3px;
+  right: 3px;
+  font-size: 18px;
+}
+
+div.superimpose img {
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.14),
+    0 2px 2px 0 rgba(0, 0, 0, 0.098), 0 1px 5px 0 rgba(0, 0, 0, 0.084);
+}
+
+span.material {
+  color: #fff;
+  font-family: Roboto;
+}
