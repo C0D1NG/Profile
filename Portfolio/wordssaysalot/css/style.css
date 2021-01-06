@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color:#5674b9;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.climax{
+  font-size: 10px;
+  height: 20px;
+
+}
+
+h3 {
+  line-height: 70px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: #5674b9;
+}
+
+
+
+.end{
+line-height: 10px;
+margin-top: 20px;
+}
+
+.end1{
+  margin-bottom: 10px;
+}
+
+hr{
+  border-color: #5674b9;
+  border-width: 6px;
+  height: 2px;
+  width: 5%;
+  border-style: dotted none none none;
+}
+
+p {
+  line-height: 35px;
+  font-weight: bold;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.hov {
+  bottom: 61px;
+  display: inline-block;
+  position: relative;
+}
+
+.profile p{
+  width: 80%;
+  display: inline-block;
+}
+
+.top-container {
+  color: #000131;
+  background: url('mountain.gif') no-repeat center center/cover;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  margin-top: 120px;
+  height: 718px;
+
+}
+
+.profile{
+  margin-bottom: 50px;
+}
+
+.contact-me{
+  margin-top:30px;
+
+}
+
+.skills{
+  margin: 50px auto 30px auto;
+}
+
+.skill-row {
+  margin: 20px auto 20px auto;
+  display: inline-block;
+  text-align: left;
+  width: 80%;
+}
+
+
+
+.hov:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.hov:hover .pro {
+  color: gold;
+  font-weight: bold;
+}
+
+.middle-container{
+  color: white;
+  background-color: #000131;
+  margin-top: -10px;
+}
+
+a{
+  font-size: 1rem;
+}
+
+.links{
+display: flex;
+justify-content: space-around;
+width: 300px;
+margin: auto;
+}
+
+a{
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #5674b9;
+}
+
+a:active{
+  color: #f1f6f9;
+}
+
+/* a:visited{
+  color: #28abb9;
+} */
+
+.bottom-container{
+  color: white;
+  background-color: #000131;
+  padding: 50px 20px 9px 20px;
+}
+
+.head0{
+  margin: 20px 0 20px 0;
+}
+
+.empty-content{
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  background-color: red;
+}
+
+img {
+  width: auto;
+  height: 150px;
+}
+
+.img1{
+  position: relative;
+  height: 150px;
+  width: auto;
+}
+
+.img2{
+  margin-right: 30px;
+  float: left;
+}
+
+.img3{
+  margin-left: 30px;
+  float: right;
+}
