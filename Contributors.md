@@ -34,3 +34,4 @@
 | Przemek Dolata | https://przemekdolata96.github.io |
 | Minh Nguyen | https://minhd-nguyen.github.io/ |
 | Keivalya Pandya | https://keivalya.github.io/ |
+| Kaushal Karki | https://github.com/kaushalkarki/ |
