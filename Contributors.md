@@ -39,3 +39,4 @@
 | Mayank Bhatt | https://github.com/Mayankbhatt07141/ |
 | Azad Singh | https://azadhash.github.io/portfolio/ |
 | Rehanuddin Shaik | https://www.rehan.tech |
+| Alejandro Estrada | https://github.com/Candoyeya |
