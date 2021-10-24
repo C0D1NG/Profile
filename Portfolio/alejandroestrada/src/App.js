@@ -10,17 +10,17 @@ import './App.css';
 
 function App() {
   return (
-    <div classname="main">
-      <section class="hero is-info is-medium is-bold">
-        <div class="hero-head">
-          <nav class="navbar">
-            <div class="container">
-              <div id="navbarMenu" class="navbar-menu">
-                <div class="navbar-end">
-                  <div class="tabs is-right">
-                    <span class="navbar-item">
-                      <a class="button is-white is-outlined" href="https://github.com/C0D1NG/Profile/tree/master/Portfolio/alejandroestrada">
-                        <span class="icon">
+    <div className="main">
+      <section className="hero is-info is-medium is-bold">
+        <div className="hero-head">
+          <nav className="navbar">
+            <div className="container">
+              <div id="navbarMenu" className="navbar-menu">
+                <div className="navbar-end">
+                  <div className="tabs is-right">
+                    <span className="navbar-item">
+                      <a className="button is-white is-outlined" href="https://github.com/C0D1NG/Profile/tree/master/Portfolio/alejandroestrada">
+                        <span className="icon">
                           <img src={gitLogo} alt="Logo GitHub"/>
                         </span>
                         <span title="Hello from the other side">View Source</span>
@@ -32,12 +32,12 @@ function App() {
             </div>
           </nav>
         </div>
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <h1 class="title">
+        <div className="hero-body">
+          <div className="container has-text-centered">
+            <h1 className="title">
               Alejandro Estrada Hernandez
             </h1>
-            <h2 class="subtitle">
+            <h2 className="subtitle">
               Short Bio
             </h2>
             <p>
@@ -48,52 +48,52 @@ function App() {
           </div>
         </div>
       </section>
-      <div class="box cta">
-        <p class="has-text-centered">
-          <h2 class="subtitle">SoftSkills</h2>
-        </p>
+      <div className="box cta">
+        <div className="has-text-centered">
+          <h2 className="subtitle">SoftSkills</h2>
+        </div>
       </div>
-      <section class="container">
-        <div class="columns features">
-          <div class="column is-4">
-            <div class="card is-shady">
-              <div class="card-image has-text-centered">
+      <section className="container">
+        <div className="columns features">
+          <div className="column is-4">
+            <div className="card is-shady">
+              <div className="card-image has-text-centered">
                 <img src={reactLogo}
-                      classname="logo"
+                      className="logo"
                       alt="Logo ReactJS" />
               </div>
-              <div class="card-content">
-                <div class="content">
+              <div className="card-content">
+                <div className="content">
                   <h4>ReactJS </h4>
                   <p><a href="https://reactjs.org/">Learn more</a></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-4">
-            <div class="card is-shady">
-              <div class="card-image has-text-centered">
+          <div className="column is-4">
+            <div className="card is-shady">
+              <div className="card-image has-text-centered">
                 <img src={angularLogo} 
-                      classname="logo"
+                      className="logo"
                       alt="Logo AngularJS" />
               </div>
-              <div class="card-content">
-                <div class="content">
+              <div className="card-content">
+                <div className="content">
                   <h4>AngularJS</h4>
                   <p><a href="https://angular.io/">Learn more</a></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-4">
-            <div class="card is-shady">
-              <div class="card-image has-text-centered">
+          <div className="column is-4">
+            <div className="card is-shady">
+              <div className="card-image has-text-centered">
                 <img src={reactNativeLogo} 
-                        classname="logo"
+                        className="logo"
                         alt="Logo React Native" />
               </div>
-              <div class="card-content">
-                <div class="content">
+              <div className="card-content">
+                <div className="content">
                   <h4>React Native</h4>
                   <p><a href="https://reactnative.dev/">Learn more</a></p>
                 </div>
@@ -101,46 +101,46 @@ function App() {
             </div>
           </div>
         </div>
-        <div class="columns features">
-          <div class="column is-4">
-            <div class="card is-shady">
-              <div class="card-image has-text-centered">
+        <div className="columns features">
+          <div className="column is-4">
+            <div className="card is-shady">
+              <div className="card-image has-text-centered">
                 <img src={expressLogo}
-                      classname="logo"
+                      className="logo"
                       alt="Logo ExpressJS" />
               </div>
-              <div class="card-content">
-                <div class="content">
+              <div className="card-content">
+                <div className="content">
                   <h4>ExpressJS </h4>
                   <p><a href="https://expressjs.com/es/">Learn more</a></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-4">
-            <div class="card is-shady">
-              <div class="card-image has-text-centered">
+          <div className="column is-4">
+            <div className="card is-shady">
+              <div className="card-image has-text-centered">
                 <img src={phpLogo}
-                      classname="logo"
+                      className="logo"
                       alt="Logo PHP" />
               </div>
-              <div class="card-content">
-                <div class="content">
+              <div className="card-content">
+                <div className="content">
                   <h4>PHP</h4>
                   <p><a href="https://www.php.net/manual/en/intro-whatis.php">Learn more</a></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-4">
-            <div class="card is-shady">
-              <div class="card-image has-text-centered">
+          <div className="column is-4">
+            <div className="card is-shady">
+              <div className="card-image has-text-centered">
                 <img src={mySqlLogo}
-                      classname="logo"
+                      className="logo"
                       alt="Logo MySql" />
               </div>
-              <div class="card-content">
-                <div class="content">
+              <div className="card-content">
+                <div className="content">
                   <h4>MySql</h4>
                   <p><a href="https://www.mysql.com/">Learn more</a></p>
                 </div>
@@ -149,58 +149,58 @@ function App() {
           </div>
         </div>
 
-        <div class="intro column is-8 is-offset-2">
-          <h2 class="title">Experience</h2><br />
+        <div className="intro column is-8 is-offset-2">
+          <h2 className="title">Experience</h2><br />
         </div>
 
-        <div class="sandbox">
-          <div class="tile is-ancestor">
-            <div class="tile is-parent is-shady">
-              <article class="tile is-child notification is-white">
-                <p class="title">Full Stack Developer</p>
-                <p class="subtitle">Shockoe (Jun 2019 – Current)</p>
-                <p class="subtitle">Colima, Col. Mexico</p>
+        <div className="sandbox">
+          <div className="tile is-ancestor">
+            <div className="tile is-parent is-shady">
+              <article className="tile is-child notification is-white">
+                <p className="title">Full Stack Developer</p>
+                <p className="subtitle">Shockoe (Jun 2019 – Current)</p>
+                <p className="subtitle">Colima, Col. Mexico</p>
               </article>
             </div>
 
-            <div class="tile is-parent is-shady">
-              <article class="tile is-child notification is-white">
-                <p class="title">Full Stack Developer</p>
-                <p class="subtitle">Creatools (Apr 2019 – Oct 2019)</p>
-                <p class="subtitle">Colima, Col. Mexico</p>
+            <div className="tile is-parent is-shady">
+              <article className="tile is-child notification is-white">
+                <p className="title">Full Stack Developer</p>
+                <p className="subtitle">Creatools (Apr 2019 – Oct 2019)</p>
+                <p className="subtitle">Colima, Col. Mexico</p>
               </article>
             </div>
 
-            <div class="tile is-parent is-shady">
-              <article class="tile is-child notification is-white">
-                <p class="title">Full Stack Developer</p>
-                <p class="subtitle">Complejo administrativo del gobierno del estado (Feb 2019 – Jul 2019)</p>
-                <p class="subtitle">Colima, Col. Mexico</p>
+            <div className="tile is-parent is-shady">
+              <article className="tile is-child notification is-white">
+                <p className="title">Full Stack Developer</p>
+                <p className="subtitle">Complejo administrativo del gobierno del estado (Feb 2019 – Jul 2019)</p>
+                <p className="subtitle">Colima, Col. Mexico</p>
               </article>
             </div>
           </div>
         </div>
 
-        <div class="sandbox">
-          <div class="tile is-ancestor">
-            <div class="tile is-parent is-shady">
-              <article class="tile is-child notification is-white">
-                <p class="title">Front-End Developer Jr</p>
-                <p class="subtitle">CantaloopMX (Sept 2017 – Dic 2018)</p>
-                <p class="subtitle">Colima, Col. Mexico</p>
+        <div className="sandbox">
+          <div className="tile is-ancestor">
+            <div className="tile is-parent is-shady">
+              <article className="tile is-child notification is-white">
+                <p className="title">Front-End Developer Jr</p>
+                <p className="subtitle">CantaloopMX (Sept 2017 – Dic 2018)</p>
+                <p className="subtitle">Colima, Col. Mexico</p>
               </article>
             </div>
           </div>
         </div>
       </section>
-      <footer class="footer">
-        <div class="container">
-          <div class="content has-text-centered">
-            <div class="control level-item">
+      <footer className="footer">
+        <div className="container">
+          <div className="content has-text-centered">
+            <div className="control level-item">
               <a href="https://hacktoberfest.digitalocean.com/">
-                <div class="tags has-addons">
-                  <span class="tag is-dark">Hacktoberfest 2021</span>
-                  <span class="tag is-info">ReactJS</span>
+                <div className="tags has-addons">
+                  <span className="tag is-dark">Hacktoberfest 2021</span>
+                  <span className="tag is-info">ReactJS</span>
                 </div>
               </a>
             </div>
