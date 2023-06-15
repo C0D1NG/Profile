@@ -1,0 +1,212 @@
+// @import 'bootstrap/scss/bootstrap';
+@import 'global/colors';
+@import 'components/menu';
+@import 'components/tagcloud';
+@import 'components/carousel';
+@import 'components/qualification';
+@import 'components/cursor';
+@import 'components/scrollbar';
+@import 'components/scrollToTopBtn';
+
+
+.-color-blue{
+  color: var(--main-cursor-color);
+}
+.-color-yellow{
+  color: gold;
+}
+.-color-red{
+  color: crimson;
+}
+
+:root {
+  --duration: 0.7s;
+}
+
+#lang-btn {
+  svg {
+    vertical-align: 0;
+  }
+}
+
+body {
+  background-color: var(--dark-bg-color);
+  color: var(--text-light-color);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  transition: 0.3s;
+}
+
+i {
+  color: var(--text-light-color);
+  transition: 0.3s;
+  &:hover {
+    color: #ccc;
+  }
+}
+
+#lang-btn {
+  svg {
+    fill: var(--text-light-color);
+    transition: 0.3s;
+    &:hover {
+      fill: #ccc;
+    }
+  }
+}
+
+header {
+  #header-intro {
+    p {
+      &:nth-of-type(1) {
+        font-size: 1rem;
+      }
+      &:nth-of-type(2) {
+        font-size: 1.4rem;
+      }
+    }
+    #header-title {
+      font-size: 3.5rem;
+    }
+    #cv-btn {
+      background-color: var(--main-btn-bg-color);
+      padding: 5px 10px;
+      color: var(--main-btn-txt-color);
+      transition: 0.3s;
+      &:hover {
+        background-color: var(--main-btn-bg-hover-color);
+      }
+    }
+  }
+  #scroll-btn {
+    width: initial;
+    color: var(--text-light-color);
+  }
+}
+
+nav {
+  transition: 0.3s;
+  padding: 10px;
+  background-color: #232323;
+  &.active-nav{
+    background-color: #272727;
+  }
+}
+#logo{
+  color: #f5f5f5;
+  cursor: pointer;
+  transition: .3s;
+  &:hover{
+    color: #ccc;
+  }
+}
+
+
+.light {
+  #logo{
+    color: #232323;
+  }
+  nav{
+    background-color: #f5f5f5;
+    &.active-nav {
+      background-color: #ececec!important;
+    }
+  }
+  background-color: #f5f5f5;
+  color: #232323;
+  #scroll-btn {
+    span {
+      color: #232323;
+    }
+  }
+  :is(.menu, .menu__border, #menu-wrapp, .carousel-item) {
+    background-color: #ececec !important;
+  }
+  .lang-icon {
+    fill: #232323 !important;
+  }
+  i {
+    color: #232323;
+  }
+  input,
+  textarea {
+    color: initial !important;
+    background-color: #fff !important;
+  }
+  .qualification__button{
+    color: #232323;
+  }
+}
+
+main {
+  // margin-top: 150px !important;
+  #skills-title {
+    font-size: 2rem;
+  }
+  #about-me-detail {
+    margin-top: 50px;
+  }
+  #avatar {
+    margin-top: 20px;
+    background-color: var(--main-img-bg-color);
+  }
+  #interests-title {
+    font-size: 2.5rem;
+  }
+  #interest-list {
+    list-style: none;
+    > li {
+      margin: 10px 0;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.1);
+        color: var(--secondary-txt-color);
+      }
+    }
+  }
+}
+
+#awards-section {
+  // margin-top: 140px;
+}
+
+// @media screen and (max-width:767px) {
+//   #main-wrapper{
+//     margin-top: 270px!important;
+//   }
+// }
+
+#contact-me-title {
+  margin-top: 100px;
+}
+
+#contact-me {
+  #contact-form {
+    input,
+    textarea {
+      color: var(--main-input-text-color);
+      background-color: var(--main-input-bg-color);
+    }
+  }
+}
+
+#submit-btn {
+  background-color: var(--main-btn-bg-color);
+  padding: 5px 10px;
+  color: var(--main-btn-txt-color);
+  align-self: center;
+  transition: 0.3s;
+  &:hover {
+    background-color: var(--main-btn-bg-hover-color);
+  }
+}
+
+
+#menu-wrapp {
+  background-color: #272727;
+}
+
+
+#typewriter{
+  font-size: 2rem;
+}
