@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="welcome to my portfolio, My name is Soroush hosseini but you can call me Swoosh ">
+    <title>Swoosh</title>
+    <link rel="preload" href="./scene.json" as="fetch">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="src/scss/style.scss" />
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- nav section start -->
+    <nav class="sticky-top row text-center mt-3 pt-2">
+      <section class="col " id="nav-logo">
+          <a id="logo" href="#" class="fs-2 mb-0 text-decoration-none">LOGO</a>
+      </section>
+      <div id="menu-wrapp" class="d-flex justify-content-center align-items-center fixed-bottom ">
+        <menu class="menu">
+    
+          <a section-link="home" href="#" class="menu__item active" style="--bgColorItem: #5c86ff;" >
+            <i class='bx bxs-home'></i>
+          </a>
+
+          <a section-link="about" href="#about-me-title" class="menu__item " style="--bgColorItem: #5c86ff;" >
+            <i class='bx bxs-quote-right'></i>
+          </a>
+
+          <a section-link="awards" href="#awards" class="menu__item" style="--bgColorItem: #5c86ff;">
+            <i class='bx bxs-trophy'></i>
+          </a>
+
+          <a section-link="qualification" href="#qualification" class="menu__item " style="--bgColorItem: #5c86ff;" >
+            <i class='bx bx-briefcase'></i>
+          </a>
+          
+          <a section-link="contact" href="#contact" class="menu__item" style="--bgColorItem: #5c86ff;" >
+            <i class='bx bx-code-alt'></i>
+          </a>
+      
+          <div class="menu__border"></div>
+          <div class="svg-container">
+            <svg viewBox="0 0 202.9 45.5" >
+              <clipPath id="menu" clipPathUnits="objectBoundingBox" transform="scale(0.0049285362247413 0.021978021978022)">
+                <path  d="M6.7,45.5c5.7,0.1,14.1-0.4,23.3-4c5.7-2.3,9.9-5,18.1-10.5c10.7-7.1,11.8-9.2,20.6-14.3c5-2.9,9.2-5.2,15.2-7
+                  c7.1-2.1,13.3-2.3,17.6-2.1c4.2-0.2,10.5,0.1,17.6,2.1c6.1,1.8,10.2,4.1,15.2,7c8.8,5,9.9,7.1,20.6,14.3c8.3,5.5,12.4,8.2,18.1,10.5
+                  c9.2,3.6,17.6,4.2,23.3,4H6.7z"/>
+              </clipPath>
+            </svg>
+          </div>
+      
+        </menu>
+      </div>
+      <section class="col d-flex justify-content-center align-items-center">
+        <button id="theme-btn" class="fs-4 border-0 bg-transparent me-3"><i class='icon bx bx-sun'></i></button>
+        <button id="lang-btn" class="border-0 bg-transparent fs-5"><svg class="lang-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><path d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z"/></svg></button>
+      </section>
+    </nav>
+    <!-- nav section end -->
+    <!-- header section start -->
+    <div class="container-fluid">
+      <div class="container">
+        <header class="row mt-2 align-items-center justify-content-center position-relative">
+            <aside class="col-12 col-md-2 d-flex flex-md-column justify-content-center align-items-center ">
+              <a href="https://github.com/Swooshnv" target="_blank" class="border-0 bg-transparent me-4 me-md-0"><i class='bx bxl-github fs-3'></i></a>
+              <a href="https://www.linkedin.com/in/soroush-naghavi-094a82196/" target="_blank" class="border-0 bg-transparent mt-md-4"><i class='bx bxl-linkedin fs-3'></i></a>
+            </aside>
+            <section data-cursor-text="Welcome" class="col-12 col-md-5 d-flex flex-column " id="header-intro">
+              <p class="text-align-left" data-section="home">Hi</p>
+              <p class="text-align-left">My name is </p>
+              <h1 id="header-title"> Soroush hosseini</h1>
+              <p class="text-center mt-3" id="typewriter"></p>
+              <a href="Resume.docx.pdf" download id="cv-btn" class="align-self-center border-0 rounded mt-5 text-decoration-none">Download CV</a>
+            </section>
+            <section class="col-12  d-md-block col-md-5">
+              <figure id="header-img">
+                <img class="img-fluid" loading="lazy" src="ai.gif" alt="AI robot">
+              </figure>
+            </section>
+            <section class="col-12"><a href="#about-me-title" id="scroll-btn" class="text-decoration-none p-0 d-flex flex-column justify-content-center align-items-center border-0 bg-transparent"><lord-icon src="https://cdn.lordicon.com/wtfdpwey.json" trigger="loop" colors="primary:#5c86ff,secondary:#3c67e9" style="width:50px;height:50px">
+            </lord-icon><span>scroll</span></a></section>
+        </header>
+      </div>
+    </div>
+     <!-- header section end -->
+     <div class="container-fluid" id="main-wrapper">
+      <div class="container mt-5">
+        <!-- main section start -->
+        <main class="mt-5">
+           <!-- skills and tools start -->
+          <div class="row" data-cursor="-color-yellow" >
+            <h2 class="text-center col-12 mt-5" id="about-me-title" >About Me</h2>
+            <span class="text-center text-secondary mt-2" >Everything you need to know about me</span>
+          </div>
+          <div data-section="about" ></div>
+          <div class="row" id="about-me-detail" data-cursor="-color-yellow">
+            <section class="col-12 col-lg-6 text-center d-flex align-items-center flex-column" id="interests">
+              <figure><img loading="lazy" id="avatar" class="rounded-circle img-fluid w-50" src="./male_avatar.png" alt="Soroush hosseini"></figure>
+              <h3 class="mt-4" id="interests-title">Interests</h3>
+              <ul id="interest-list" class="ps-0">
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>Image Processing</li>
+                <li>Neural/Brain Imaging</li>
+                <li>Neuroscience</li>
+                <li>Signal Processing</li>
+              </ul>
+            </section>
+            <section class="col-12 col-lg-6 text-center position-relative d-flex justify-content-center align-items-center flex-column" id="skills">
+              <h3 id="skills-title" class="mb-5">Skills & Tools</h3>
+              <ul class='tags-cloud mt-5'>
+                <li class='tag'><span class='wrap'>Python</span></li>
+                <li class='tag'><span class='wrap'>JavaScript</span></li>
+                <li class='tag'><span class='wrap'>CSS</span></li>
+                <li class='tag'><span class='wrap'>HTML</span></li>
+                <li class='tag'><span class='wrap'>Pandas,</span></li>
+                <li class='tag'><span class='wrap'>MPLib,</span></li>
+                <li class='tag'><span class='wrap'>Numpy</span></li>
+                <li class='tag'><span class='wrap'>Pytorch</span></li>
+                <li class='tag'><span class='wrap'>Tensorflow</span></li>
+                <li class='tag'><span class='wrap'>SKLearn</span></li>
+                <li class='tag'><span class='wrap'>CodeVision</span></li>
+                <li class='tag'><span class='wrap'>MATLAB</span></li>
+                <li class='tag'><span class='wrap'>Altium Designer</span></li>
+                <li class='tag'><span class='wrap'>C++</span></li>
+                <li class='tag'><span class='wrap'>Adobe PS/</span></li>
+                <li class='tag'><span class='wrap'>Git</span></li>
+                <li class='tag'><span class='wrap'>Linux</span></li>
+            </ul>
+            </section>
+          </div>
+          <!-- skills and tools end -->
+          <!-- awards section start -->
+          <div class="row  mt-5" id="awards-section" data-cursor="-color-red" >
+              <h2 class="text-center  mt-5">Awards</h2>
+              <blockquote class="text-center mt-3 text-secondary">
+                <q>The road to success and the road to failure are almost exactly the same.</q>
+              </blockquote>
+          </div>
+          <div class="row mt-5 pt-5" id="awards" data-section="awards" data-cursor="-color-red" >
+            <div class="carousel col-12" data-cursor="-color-red">
+              <div class="carousel-pivot">
+                <div class="carousel-item d-flex flex-column align-items-center justify-content-center" >
+                    <p class="award-cup mb-0"><i class='bx bxs-trophy'></i></p>
+                    <p class="award-place mb-0">1st Place</p>
+                    <p class="award-desc mb-0">international robotics competition, RoboCup 2018, Montreal, Canada</p>
+                </div>
+                <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+                    <p class="award-cup mb-0"><i class='bx bxs-trophy'></i></p>
+                    <p class="award-place mb-0">1st Place</p>
+                    <p class="award-desc mb-0">international robotics competition, RoboCup 2017, Nagoya, Japan</p>
+                </div>
+                <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+                    <p class="award-cup mb-0"><i class='bx bxs-trophy'></i></p>
+                    <p class="award-place mb-0">1st Place</p>
+                    <p class="award-desc mb-0">the main competition at national robotics competition, RoboCup Asia-Pacific 2018,
+                      Kish Island, Iran</p>
+                </div>
+                <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+                    <p class="award-cup mb-0"><i class='bx bxs-trophy'></i></p>
+                    <p class="award-place mb-0">1st Place</p>
+                    <p class="award-desc mb-0">the main competition at national robotics competition, RoboCup Asia-Pacific 2018,
+                      Kish Island, Iran</p>
+                </div>
+                <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+                    <p class="award-cup mb-0"><i class='bx bxs-trophy'></i></p>
+                    <p class="award-place mb-0">1st Place</p>
+                    <p class="award-desc mb-0">the main competition at national robotics competition, RoboCup IranOpen 2018,
+                      Tehran, Iran</p>
+                </div>
+                <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+                    <p class="award-cup mb-0"><i class='bx bxs-trophy'></i></p>
+                    <p class="award-place mb-0">1st Place</p>
+                    <p class="award-desc mb-0">national robotics competition, AUTCup 2016, Transposter B League</p>
+                </div>
+                <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+                    <p class="award-cup mb-0"><i class='bx bxs-trophy'></i></p>
+                    <p class="award-place mb-0">1st Place</p>
+                    <p class="award-desc mb-0">selection exam at World Mathematics Team Championship 2016</p>
+                </div>
+                <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+                    <p class="award-cup mb-0"><i class='bx bxs-trophy'></i></p>
+                    <p class="award-place mb-0">Recognized as scientific elite</p>
+                    <p class="award-desc mb-0">Iran’s National Elites Foundation (INEF) Fellowship [2017-2023]</p>
+                </div>
+              </div>
+          </div>
+          </div>
+          <!-- awards section end -->
+          <!-- qualification section start -->
+          <div class="row mt-5" >
+            <section class="col-12 mt-4">
+              <!-- <section class="qualification section"></section> -->
+              <h3 id="qualification qualification-title" class="text-center pt-5 mt-5">Qualification</h3>
+              <span data-section="qualification" class="text-secondary mt-3 mb-5 d-block text-center">My personal journey</span>
+                <div class="qualification__tabs w-50 m-auto mb-5">
+                  <button  data-target="#education" class="qualification__button qualification__active bg-transparent border-0">education</button>
+                    <button  data-target="#work" class="qualification__button bg-transparent border-0 ">work</button>
+                    <button  data-target="#Research" class="qualification__button bg-transparent border-0 ">Research</button>
+                </div>
+                <div class="qualification__sections">
+                  <div class="qualification__content qualification__active" data-content id="education">
+                    <!-- time line  -->
+                    <div class="qualification__data">
+                      <div>
+                        <h3 class="qualification__title">Diploma of Science</h3>
+                        <span class="qualification__subtitle">Danesh High-school, Tehran</span>
+                        <div class="qualification__calender">2019 - 2023 <i class="uil uil-calendar-alt"></i></div>
+                      </div>
+                      <div>
+                        <span class="qualification__rounder"></span
+                        ><span class="qualification__line"></span>
+                      </div>
+                    </div>
+                    <div class="qualification__data">
+                      <div></div>
+                      <div>
+                        <span class="qualification__rounder"></span
+                        ><span class="qualification__line"></span>
+                      </div>
+                      <div>
+                        <h3 class="qualification__title">Bachelor of Science</h3>
+                        <span class="qualification__subtitle">Science and Research branch IAU, Tehran</span>
+                        <div class="qualification__calender">2019 - 2023<i class="uil uil-calendar-alt"></i></div>
+                      </div>
+                    </div>
+                    <!-- time line  -->
+                  </div>
+                  <div class="qualification__content " data-content id="work">
+                    <div class="qualification__data">
+                      <div>
+                        <h3 class="qualification__title">Team member / Programmer</h3>
+                        <span class="qualification__subtitle">Kavosh Robotics team</span>
+                        <div class="qualification__calender">2016 - 2019</div>
+                      </div>
+                      <div>
+                        <span class="qualification__rounder"></span
+                        ><span class="qualification__line"></span>
+                      </div>
+                    </div>
+                    <div class="qualification__data">
+                      <div></div>
+                      <div>
+                        <span class="qualification__rounder"></span
+                        ><span class="qualification__line"></span>
+                      </div>
+                      <div>
+                        <h3 class="qualification__title">Shareholder / Teacher / Graphic Designer</h3>
+                        <span class="qualification__subtitle">Kavosh Creativity House</span>
+                        <div class="qualification__calender">2019 - 2021<i class="uil uil-calendar-alt"></i></div>
+                      </div>
+                    </div>
+                    <div class="qualification__data">
+                      <div>
+                        <h3 class="qualification__title">IT Specialist / Graphic Designer</h3>
+                        <span class="qualification__subtitle">Ariaz Balan Servat</span>
+                        <div class="qualification__calender">2021 February-May<i class="uil uil-calendar-alt"></i></div>
+                      </div>
+                      <div>
+                        <span class="qualification__rounder"></span
+                        ><span class="qualification__line"></span>
+                      </div>
+                    </div>
+                    <div class="qualification__data">
+                      <div></div>
+                      <div>
+                        <span class="qualification__rounder"></span
+                        ><span class="qualification__line"></span>
+                      </div>
+                      <div>
+                        <h3 class="qualification__title">Technical Committee/Member</h3>
+                        <span class="qualification__subtitle">National Robocup Committee of Iran</span>
+                        <div class="qualification__calender">June 2017 - Present<i class="uil uil-calendar-alt"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="qualification__content " data-content id="Research">
+                    <div class="qualification__data">
+                      <div>
+                        <h3 class="qualification__title">Handwriting Recognition in the medical industry</h3>
+                        <span class="qualification__subtitle">Supervisors: Azadeh Zamanifar, Ladan Pirouz, Mahdi Saeidi</span>
+                        <div class="qualification__calender">Summer 2022</div>
+                      </div>
+                      <div>
+                        <span class="qualification__rounder"></span
+                        ><span class="qualification__line"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+          </div>
+          <!-- qualification section end -->
+          <!-- contact me section -->
+          <div class="row mt-5 pt-5" >
+            <h2  class="text-center" id="contact-me-title">Contact me</h2>
+          </div>
+          <div class="row mt-5" id="contact-me">
+              <section class="col-12 col-md-5 offset-md-1 " id="contact-form">
+                <form class="w-75 m-auto" id="contact" data-section="contact">
+                  <div class="mb-3">
+                    <label for="userName" class="form-label">name</label>
+                    <input
+                      type="text"
+                      class="form-control border-0"
+                      id="userName"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="userEmail" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control border-0"
+                      id="userEmail"
+                      aria-describedby="emailHelp"
+                    />
+                    <div id="emailHelp" class="fs-6 text-secondary">
+                      We'll never share your email with anyone else.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="emailMsg" class="form-label">Message</label>
+                    <textarea
+                      class="form-control border-0"
+                      id="emailMsg"
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                  <div class="text-center">
+                    <button class="border-0 rounded" id="submit-btn">Submit</button>
+                  </div>
+                </form>
+              </section>
+              <section class="col-12 d-none d-md-flex col-md-5 text-center flex-column" >
+                <figure>
+                  <img class="img-fluid" loading="lazy" src="./ai2.gif" alt="ai robot getting selfie">
+                </figure>
+              </section>
+          </div>
+          <!-- contact me section -->
+        </main> 
+        <!-- main section end -->
+        <footer class="my-5">
+            <p class="text-center my-5 py-5">made with 💙 and ☕ by <a class="text-decoration-none link-primary" target="_blank" href="https://ali-nazari.netlify.app/">Ali t.nazari</a> <date></date></p> 
+        </footer>
+      </div>
+    </div>
+    <button class="rounded-circle border-0" id="scroll_to_top_btn"><i class='bx bxs-chevron-up'></i></button>
+  </body>
+  <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+  <script type="module" src="src/js/main.js"></script>
+</html>
