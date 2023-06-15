@@ -40,4 +40,4 @@
 | Azad Singh | https://azadhash.github.io/portfolio/ |
 | Rehanuddin Shaik | https://www.rehan.tech |
 | Alejandro Estrada | https://candoyeya.github.io/ |
-| Ali t.nazari | https://swoosh-ai.netlify.app/ |
+| Ali t.nazari | https://swoosh-ai.netlify.app/  |
