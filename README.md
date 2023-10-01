@@ -23,9 +23,9 @@ C0D1NG is an organization that helps everyone to contribute to open source proje
 # 👉 Add your portfolio website in `Portfolio/` directory and add the link of the portfolio in `Contributots.md` file in the given format
 
 ```
-| Author | Portfolio |
-| :---: | :---: |
-| YourName | YourLink |
+|   Author   |  Portfolio |
+|   :---:    |    :---:   |
+|  YourName  |  YourLink  |
 ```
 
 # 👉 Add & commit
