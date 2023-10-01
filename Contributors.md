@@ -4,6 +4,7 @@
 
 | Author | Portfolio |
 | :---: | :---: |
+| Shaikh Minhaj | https://minhaj-313.github.io |
 | Jeevan Joshi | https://g1joshi.github.io |
 | Frits Sasia | https://fritssasia.github.io |
 | Shubhankar | https://shbhnkr.github.io |
