@@ -1,0 +1,56 @@
+body {
+
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.h2-clock{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -250px;
+    font-family: monospace;
+    color: rgb(0, 111, 135);
+    font-weight: bold;
+    text-shadow: 1px 1px 35px rgb(0, 106, 255);
+}
+#txt{
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140px;
+    color: rgb(0, 117, 150);
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgb(47, 224, 255);
+    padding: 20px;
+    margin-top:  350px;
+    margin-left:  350px;
+    margin-right:  350px;
+    margin-bottom: 0px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(24, 24, 24); 
+    border-radius: 5px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 217, 255); 
+    border-radius: 7px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #45c7ff; 
+  }
