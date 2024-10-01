@@ -1,6 +1,6 @@
 # Welcome to C0D1NG 🥳
 
-C0D1NG is an organization that helps everyone to contribute to open source projects.
+C0D1NG is an organization that helps everyone contribute to open source projects.
 
 # List of [Contributors](https://github.com/C0D1NG/Profile/blob/master/Contributors.md) 🚀
 
@@ -20,7 +20,7 @@ C0D1NG is an organization that helps everyone to contribute to open source proje
 
 # 👉 Create a branch
 
-# 👉 Add your portfolio website in `Portfolio/` directory and add the link of the portfolio in `Contributots.md` file in the given format
+# 👉 Add your portfolio website in the `Portfolio/` directory and add the link of the portfolio in the `Contributors.md` file in the given format
 
 ```
 |   Author   |  Portfolio |
@@ -40,7 +40,13 @@ We're happy to merge an awesome portfolio into this repository!
 
 # Hurray! Now you are a part of the open source community 🚀🚀🚀
 
-## Join our Community 👉🏻 [C0D1NG](https://t.me/C0D1NG)
+## Contributors
+
+<a href="https://github.com/C0D1NG/Profile/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=C0D1NG/Profile" />
+</a>
+
+## Join our Telegram Community 👉🏻 [C0D1NG](https://t.me/C0D1NG)
 
 ---
 
