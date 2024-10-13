@@ -41,3 +41,4 @@
 | Azad Singh | https://azadhash.github.io/portfolio/ |
 | Rehanuddin Shaik | https://www.rehan.tech |
 | Alejandro Estrada | https://candoyeya.github.io/ |
+| Hemang Yadav | https://zemerik.vercel.app/ |
